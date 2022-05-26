@@ -3,18 +3,28 @@ body{
 }
 
 header {
-    background-color: #BBBBBB;
-    padding: 20px 30%;
-    float: left;
+    background: #FAEBD7;
+    padding: 20px 9%;
+    
 }
+.argentinaprograma{border-radius: 30px;}
 
 .caja{
-    width: 1900px;
+    width: 1600px;
     position: relative;
-    right: 500px; 
-    margin: 0 auto;
+    right: 150px; 
+    margin:  auto;
 }
 
+
+.sociales{
+    border-radius: 90px;
+    width: 70px;
+}
+
+.sociales:hover{
+    opacity: 0.3;
+}
 
 nav{
     position: absolute;
@@ -41,14 +51,15 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.productos{
+.experiencia-laboral{
     width: 940px;
     margin: 0 auto;
     padding: 50px;
 }
 
 
-.productos li{
+.experiencia-laboral li{
+    background:  #fcf4e8;
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -56,32 +67,32 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 4px solid grey;
     border-radius: 10px;
 }
 
-.productos li:hover{
+.experiencia-laboral li:hover{
     border-color:#c78c19;
 }
 
-.productos li:active{
+.experiencia-laboral li:active{
     border-color:#088c19;
 }
 
-.productos h2{
+.experiencia-laboral h2{
     font-size: 30px;
     font-weight: bold;
 }
 
-.productos li:hover h2{
+.experiencia-laboral li:hover h2{
     font-size: 33px;
 }
 
-.producto-descripcion{
+.experiencia-laboral-descripcion{
     font-size: 18px;
 }
 
-.producto-precio{
+.experiencia-laboral-precio{
     font-size: 20px;
     font-weight: bold;
     margin-top:10px;
@@ -94,7 +105,7 @@ footer{
 }
 
 .copyright{
-    color:#FFFFFF;
+    color:#000000;
     font-size: 13px;
     margin:20px;
 }
@@ -189,13 +200,16 @@ td,th{
 
 .foto-perfil{
     width: 120px;
-    float:left;
-    margin: 0 20px 20px 0;
+    position: absolute;
+  top: 700px;
+  left: 250px; 
+    margin: 0 10px 20px 0;
+    border-radius: 190px;
 }
 
 .diferenciales{
     padding: 3em 0;
-    background: #888888;
+    background: #FAEBD7;
 }
 
 .contenido-diferenciales{
@@ -223,10 +237,9 @@ td,th{
 }
 
 .imagen-diferenciales{
-    width: 60%;
+    width: 90%;
     transition: 400ms;
-    box-shadow: 10px 10px 30px 15px #000000;
-    border-radius: 50px;
+    border-radius: 25px;
 
 }
 
