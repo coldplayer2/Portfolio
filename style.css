@@ -200,9 +200,10 @@ td,th{
 
 .foto-perfil{
     width: 120px;
-    position: absolute;
-  top: 700px;
-  left: 250px; 
+    top: -70px;
+    left: -70px;
+    float: left;
+    position: relative; 
     margin: 0 10px 20px 0;
     border-radius: 190px;
 }
