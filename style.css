@@ -56,7 +56,19 @@ nav a:hover{
     margin: 0 auto;
     padding: 50px;
 }
+
 .hard-soft-skills {
+                                /*empieza el cuadro de skills*/
+        width: 940px;
+        margin: 0 auto;
+        padding: 50px;
+        border: 4px solid grey;
+        box-sizing: border-box;
+        border-radius: 10px;
+}
+
+
+.hard-soft-skills li {   
     background:  #fcf4e8;
     display: inline-block;
     text-align: center;
@@ -65,8 +77,8 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 4px solid grey;
     border-radius: 10px;
+    
 }
 
 .hard-soft-skills h2{
@@ -261,15 +273,15 @@ td,th{
     border-radius: 25px;
 
 }
-
+                        /*comienza barra de progreso animada*/
 .progress-bar {
     position: relative;
     top: 1px; 
-    left: 80px;
+    left: 35px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    outline: 1px solid #494848;
+    outline: 1px solid grey;
     outline-offset: -1px;
 }
 
@@ -304,7 +316,7 @@ td,th{
 }
 @keyframes bar-fill {
     100% {
-        stroke-dashoffset: 0;
+       stroke-dashoffset: 0;
     }
 }
 
